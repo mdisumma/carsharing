@@ -1,14 +1,12 @@
-.footer {
+
+.header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between; /* Spaces out logo and text */
+    align-items: center; /* Aligns items vertically */
     background-color: #f8f9fa;
-    padding: 20px 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
+    padding: 20px 30px;
     width: 100%;
     height: 60px;
-    line-height: 60px;
     color: #6c757d;
     font-size: 14px;
     font-weight: 400;
