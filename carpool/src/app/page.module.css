@@ -1,7 +1,8 @@
 .h1 {
   text-align: center;
-  color: #171E0A;
-}
+  color: #EDF4ED;
+  padding-top: 20px;
+  }
 
 .green {
   height: 300px;
@@ -9,6 +10,34 @@
   background-color: #089B43;
 }
 
-.positionContainer {
+.container {
+  background-color: #089B43;
+  height: 100vh;
+}
+
+.imageWrapper {
   position: relative;
 }
+
+.image {
+  background-image: url("/images/Scamper.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  margin-top: -20px;
+}
+
+.button {
+  position: absolute;
+  bottom: 150px; 
+  left: 140px;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  border-radius: 25px;
+  border: none;
+  background-color: #F6AE2D;
+  color:  #171E0A;
+  }
