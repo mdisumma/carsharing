@@ -1,16 +1,12 @@
 .footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: #f8f9fa;
+    background-color: #EDF4ED;
     padding: 20px 0;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
-    color: #6c757d;
-    font-size: 14px;
-    font-weight: 400;
-    border-top: 1px solid #e9ecef;
+    height: 40px;
+    color: #171E0A;
 }

@@ -1,0 +1,34 @@
+.form {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 80%;
+    z-index: 1;
+    overflow:scroll;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #484A47;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.input:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: none;
+}
