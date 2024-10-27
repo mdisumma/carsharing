@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className={styles.header}>
             <Link href="/profile">
-            <Image src='/images/profile.svg' alt="Profile" width={50} height={50}/>   
+            <Image src='/images/profile.svg'  alt="Profile" width={50} height={50}/>   
             </Link>
             <p>Points: 400</p>
         </div>
