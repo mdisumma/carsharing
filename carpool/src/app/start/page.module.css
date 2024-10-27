@@ -1,0 +1,16 @@
+.h1 {
+    text-align: center;
+    color: #EDF4ED;
+    padding-top: 20px;
+    }
+  
+  .green {
+    height: 300px;
+    width: 100%;
+    background-color: #089B43;
+  }
+  
+  .container {
+    background-color: #089B43;
+    height: 100vh;
+  }

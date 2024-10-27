@@ -1,14 +1,16 @@
-
 .header {
     display: flex;
-    justify-content: space-between; /* Spaces out logo and text */
-    align-items: center; /* Aligns items vertically */
-    background-color: #f8f9fa;
-    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 60px;
-    color: #6c757d;
-    font-size: 14px;
-    font-weight: 400;
-    border-top: 1px solid #e9ecef;
+    height: 50px;
+    padding: 10px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.profile p {
+    display: inline;
+    margin-right: 10px;
+    vertical-align: 8px;
 }
