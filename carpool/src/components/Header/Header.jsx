@@ -11,9 +11,9 @@ export default function Header() {
             </Link>
             <div className={styles.profile}>
                 <p>Points: 9001</p>
-                <Link href={"/profile"}>
-                    <Image src="/images/profile.svg" width={30} height={30} />
-                </Link>
+            <Link href={"/profile"}>
+                <Image src="/images/profile.svg" width={30} height={30} />
+            </Link>
             </div>
         </header>
     );
