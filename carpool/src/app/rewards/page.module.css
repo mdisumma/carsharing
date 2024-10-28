@@ -1,0 +1,60 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow: scroll;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.points {
+    height: 200px;
+    border-bottom: 1px solid #EDF4ED;
+    box-shadow: 0px 5px 5px #EDF4ED;
+    background-color:#089B43;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.pointsimg {
+    background-image: url("/images/points.png");
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+}
+
+.leader {
+    height: 200px;
+    border-bottom: 1px solid #EDF4ED;
+    background-color: #089B43;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.icon {
+    background-image: url("/images/leader.png");
+    background-position: center;
+    background-size: cover;
+    height: 100px;  
+    width: 100px;
+}
+
+.league {
+    color: #EDF4ED;
+    font-size: 30px;
+}
+
+.badges {
+    height: 200px;
+    border-bottom: 1px solid #EDF4ED;
+    background-color: #089B43;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
